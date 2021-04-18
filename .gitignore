@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Trabalho_Git/bin/Debug/netcoreapp3.1
+/Trabalho_Git/.vs/Trabalho_Git/config
+/Trabalho_Git/obj/Debug/netcoreapp3.1/staticwebassets
+/Trabalho_Git/obj/Debug/netcoreapp3.1/Razor/Views
+/Trabalho_Git/obj/Debug/netcoreapp3.1
