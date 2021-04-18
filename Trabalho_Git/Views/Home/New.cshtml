@@ -1,0 +1,16 @@
+﻿@model Agenda
+
+<form method="post" class="card p-4">
+    <div class="form-group pl-0">
+        <label class="col-6" asp-for="@Model.Description"></label>
+        <input class="form-control col-6" asp-for="@Model.Description" />
+    </div>
+    <div class="form-group pl-0">
+        <label class="col-6" asp-for="@Model.Horario"></label>
+        <input class="form-control col-6" asp-for="@Model.Horario" />
+    </div>
+    <div class="row">
+        <button type="submit" class="btn btn-success">Salvar</button>
+        <button asp-action="Index" formmethod="get" class="btn btn-danger ml-2">Voltar</button>
+    </div>
+</form>
